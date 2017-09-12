@@ -12,11 +12,13 @@
  */
 package com.vaynberg.wicket.select2;
 
+import java.io.Serializable;
+
 /**
  * @author Justin Graham
  * @since 4/18/17
  */
-public abstract class GroupedValue {
+public abstract class GroupedValue implements Serializable {
 
     private final String group;
 
